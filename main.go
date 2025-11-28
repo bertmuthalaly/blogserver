@@ -49,6 +49,7 @@ var urls = map[string]string{
 	"/2013/12/06/finals-week.html":                                      "files/2013-12-06-finals-week.html",
 	"/2013/07/03/woodshed.html":                                         "files/2013-07-03-woodshed.html",
 	"/2013/04/19/kolmogorov's-browser.html":                             "files/2013-04-19-kolmogorovs-browser.html",
+	"/2025/11/23/crown-comfort.html":                             "files/2025-11-23-crown-comfort.html",
 }
 
 func contentType(target string) string {
