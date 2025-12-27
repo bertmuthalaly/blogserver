@@ -57,7 +57,6 @@ There's an unfortunate name collision between the `blogserver` binary and the `b
 
 # improvements
 
-* Want to run certbot or other ACME infra somehow, maybe as a part of the same binary to keep deployment simple.
 * Would be nice to run jart's pledge port to privilege restrict the server binary.
 * Maybe we could do blue/green deploys to eliminate unnecessary downtime while scp is running (lol).
 * Maybe we could run a few instances and have multiple DNS servers that route you to whichever one is closest.
