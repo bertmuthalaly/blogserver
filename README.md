@@ -46,17 +46,15 @@ Transfer/sec:     31.89MB
 
 # building
 
-Ensure you have go, a djb redo implementation, and commonmark (to convert md -> html).
+Ensure you have go, a djb redo implementation, and commonmark (to convert md -> html). I'm using commonmark-gfm for the footnotes extension.
 ```
-brew install cmark redo go
+brew install cmark-gfm redo go
 ```
 
 To deploy, `GOOS=linux GOARCH=amd64 go build && scp blogserver root@1.2.3.4:/blog/blogserver && ssh root@1.2.3.4 /blog/blogserver -port=80 &`.
 
 # improvements
 
-* We should probably separate the input and output files (currently all in
-`files/*`) to different directories so the inputs don't end up in the binary.
 * Want to run certbot or other ACME infra somehow, maybe as a part of the same binary to keep deployment simple.
 * Would be nice to run jart's pledge port to privilege restrict the server binary.
 * Maybe we could do blue/green deploys to eliminate unnecessary downtime while scp is running (lol).
