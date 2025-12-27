@@ -1,3 +1,5 @@
+blogserver
+blogserver.amd64
 *.html
 files/*.html
 .redo/*
