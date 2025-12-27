@@ -51,7 +51,9 @@ Ensure you have go, a djb redo implementation, and commonmark (to convert md -> 
 brew install cmark-gfm redo go
 ```
 
-To deploy, `GOOS=linux GOARCH=amd64 go build && scp blogserver root@1.2.3.4:/blog/blogserver && ssh root@1.2.3.4 /blog/blogserver -port=80 &`.
+To build locally, `redo blogserver`.
+To deploy, `redo deploy`.
+There's an unfortunate name collision between the `blogserver` binary and the `blogserver` hostname - I'll improve that at some point.
 
 # improvements
 

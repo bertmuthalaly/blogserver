@@ -1,0 +1,12 @@
+[Unit]
+Description=Blog server
+After=network.target
+ 
+[Service]
+Type=simple
+ExecStart=/blog/blogserver -port 80
+WorkingDirectory=/blog
+Restart=on-failure
+ 
+[Install]
+WantedBy=multi-user.target
