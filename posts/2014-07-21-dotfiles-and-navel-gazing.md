@@ -27,7 +27,7 @@ for up/down/left/right arrow (ctrl-n/p/f/b) worked in all text areas out of the
 box, including safari's address bar(!). This meant the only other
 keybinding I needed to implement myself was ctrl-w for backward-kill-word,
 which was [relatively
-trivial](https://github.com/stijlist/dotfiles/blob/master/DefaultKeyBinding.dict).
+trivial](https://github.com/bertmuthalaly/dotfiles/blob/master/DefaultKeyBinding.dict).
 
 Using OS X now is a dream. I don't have to fight my muscle memory anywhere,
 especially because Safari's address bar and my fish command line now have

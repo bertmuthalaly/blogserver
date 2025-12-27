@@ -45,4 +45,4 @@ This depends on the speedup we'd get from using io_uring (e.g. can we actually b
 [1]: https://github.com/distr1/distri/commit/b6a0e43368d54d5ed0e03af687158dc3e2106e38
 [2]: https://eli.thegreenplace.net/2018/measuring-context-switching-and-memory-overheads-for-linux-threads/
 [3]: https://stackoverflow.com/questions/32748530/on-linux-is-access-faster-than-stat
-[4]: https://gist.github.com/stijlist/399a6c6f26119df96838dfa543e115d7#file-perf-svg
+[4]: https://gist.github.com/bertmuthalaly/399a6c6f26119df96838dfa543e115d7#file-perf-svg
