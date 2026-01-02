@@ -3,3 +3,4 @@ blogserver.amd64
 *.html
 files/*.html
 .redo/*
+GeoLite2-City.mmdb
